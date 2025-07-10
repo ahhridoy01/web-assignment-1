@@ -10,7 +10,7 @@ body {
 header {
     background-image: url(../Assets/Hero-bg.png);
     background-position: top left;
-    height: 698px;
+    height: 600px;
 }
 
 .nav-bar{
@@ -34,6 +34,7 @@ header {
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
+    font-weight: bold;
     /* margin-top: 50px; */
     margin-right: 150px;
 }
@@ -41,11 +42,12 @@ header {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin-top: 158px;
+    margin-top: 130px;
 }
 .banner-content button{
     width: 132px;
     height: 48px;
+    font-weight: bold;
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
@@ -71,6 +73,7 @@ header {
 .launch-content button{
     width: 229px;
     height: 48px;
+    font-weight: bold;
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
