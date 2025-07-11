@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-/* *{
-    margin: auto;    
+/* 
+*{
+    margin: 0;    
 } */
 body {
+    margin: 0px;
     font-family: 'Raleway', sans-serif;
     background-color: #D6DDED;
 }
 
 header {
     background-image: url(../Assets/Hero-bg.png);
-    background-position: top left;
+    background-position: fit;
     height: 600px;
 }
 
@@ -38,6 +40,13 @@ header {
     font-weight: bold;
     /* margin-top: 50px; */
     margin-right: 150px;
+    box-shadow: 0 6px 16px rgba(0, 0.1, 0, 0.288);
+    cursor: pointer;
+
+}
+
+.btn-all:hover {
+    background-color: #296eb3f1;
 }
 
 /* Starting banner section */
@@ -56,7 +65,15 @@ header {
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
+    box-shadow: 0 6px 16px rgba(0, 0.1, 0, 0.288);
+    cursor: pointer;
+
 }
+
+.banner-content button:hover {
+    background-color: #296eb3f1;
+}
+
 
 /* starting launch section */
 .launch {
@@ -88,7 +105,15 @@ header {
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
+    box-shadow: 0 6px 16px rgba(0, 0.1, 0, 0.288);
+    cursor: pointer;
+
 }
+
+.launch-content button:hover {
+    background-color: #296eb3f1;
+}
+
 
 .launch-img {
     border: #FFFFFF;
@@ -231,11 +256,7 @@ header {
 }
 
 .focus-img {
-    
-}
-
-.focus-img{
-    text-align: center;
+    text-align:center;
     border-radius: 50px;
     border: none;
     width: 840px;
@@ -251,9 +272,18 @@ header {
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
+    box-shadow: 0 6px 16px rgba(0, 0.1, 0, 0.288);
+    cursor: pointer;
+
 }
+
+.focus-button:hover {
+    background-color: #296eb3f1;
+}
+
 /* starting form section */
-.form-inputs input, .form-container textarea{
+.form-inputs input,
+.form-container textarea {
     background-color: #FFFFFF;
     display: block;
     color: #757575;
@@ -263,13 +293,15 @@ header {
     height: 64px;
     border: none;
     border-radius: 5px;
-     padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 20px;
 }
-.form-inputs{
+
+.form-inputs {
     width: 497px;
     height: 490px;
-} 
-.form-container{
+}
+
+.form-container {
     padding-top: 71px;
     padding-bottom: 71px;
     display: flex;
@@ -278,14 +310,46 @@ header {
     margin-left: 100px;
     margin-right: 100px;
 }
-.form-title h3{
+
+.form-title h3 {
     font-size: 70px;
     font-weight: bold;
     color: #252432;
 }
-.form-inputs label{
-    margin-bottom: 60px
+
+/* Starting footer section */
+
+.footer-container {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    text-align: center;
 }
-label{
-    margin-bottom: 10px;
+
+.footer-content {
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.footer-content li {
+    text-align: center;
+    list-style: none;
+}
+
+.footer-content ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-content h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+
+.footer-content p,
+ul {
+    font-size: 16px;
+    color: #555555;
 }
