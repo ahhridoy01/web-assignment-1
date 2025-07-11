@@ -38,11 +38,13 @@ header {
     /* margin-top: 50px; */
     margin-right: 150px;
 }
+
+/* Starting banner section */
 .banner-content{
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .banner-content button{
     width: 132px;
@@ -53,13 +55,15 @@ header {
     border: none;
     color: #FFFFFF;
 }
+/* starting launch section */
 .launch{
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    margin-top: 100px;
+    margin: 100px;
+    /* margin-top: 100px;
     margin-left: 140px;
-    margin-right: 140px;
+    margin-right: 140px; */
 }
 .launch-content h3{
     font-size: 42px;
@@ -84,4 +88,108 @@ header {
     border-radius: 48px;
     width: 400px;
     height: 328px;
+}
+
+/* Starting active user */
+
+.user{
+    background-color: #4f4aec29;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border-radius: 24px;
+    border: none;
+    height: 330px;
+}
+.user-title{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.active-user{
+    display: flex;
+    justify-content: space-around;
+}
+.active-user h3{
+    color: #4E47FF;
+    font-size: 50px;
+    font-weight: bold;
+}
+.active-user p{
+    font-size: 20px;
+    color: #000000;
+
+}
+
+/* stating box section */
+
+.testimonial-section {
+    margin: 100px;
+    text-align: center;
+}
+
+.testimonial-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.testimonial-container {
+  display: flex;
+
+  justify-content: center;
+  gap: 24px;
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer-info .name {
+  font-weight: 600;
+  color: #555;
+}
+
+.reviewer-info .date {
+  display: block;
+  font-size: 12px;
+  color: #aaa;
 }
